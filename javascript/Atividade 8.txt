@@ -1,0 +1,146 @@
+// // Questão 1
+// let frutas = ["banana", "maçã", "kiwi", "uva"];
+// if (frutas.includes("melancia") || frutas.includes("kiwi") || frutas.includes("abacate")) {
+//     console.log("Pelo menos uma das frutas está presente");
+// }
+// else {
+//     console.log("Nenhuma das frutas está presente");
+// }
+
+
+// // Questão 2
+// let nomes = ["Lucas", "Bruna", "Lucas", "Fernanda"];
+// let primeira = nomes.indexOf("Bruna");
+// let ultima = nomes.lastIndexOf("Bruna");
+// if (primeira !== -1 && primeira === ultima) {
+//     console.log("Bruna aparece exatamente uma vez");
+// }
+// else {
+//     console.log("Bruna não aparece exatamente uma vez");
+// }
+
+
+// // Questão 4
+// let nomes = ["João", "Maria", "João", "Carlos"];
+// let primeira = nomes.indexOf("João");
+// let ultima = nomes.lastIndexOf("João");
+// if (ultima - primeira >= 2) {
+//     console.log("João está separado por pelo menos 2 índices");
+// }
+// else {
+//     console.log("João não está separado por pelo menos 2 índices");
+// }
+
+
+// // Questão 5
+// let animais = ["pato", "galinha", "gato", "vaca"];
+// if (animais.includes("gato") || animais.includes("cachorro") || animais.includes("coelho")) {
+//     console.log("Pelo menos um dos animais está presente");
+// }
+// else {
+//     console.log("Nenhum dos animais está presente");
+// }
+
+
+// // Questão 6
+// let coisas = ["sol", "lua", "estrela", "lua"];
+// let primeira = coisas.indexOf("estrela");
+// let ultima = coisas.lastIndexOf("estrela");
+// if (primeira !== -1 && primeira === ultima) {
+//     console.log("Estrela aparece somente uma vez");
+// }
+// else {
+//     console.log("Estrela não aparece somente uma vez");
+// }
+
+
+// // Questão 7
+// let letras = ["a", "b", "c", "a", "d", "a"];
+// let primeira = letras.indexOf("a");
+// let ultima = letras.lastIndexOf("a");
+// console.log(`Distância: ${ultima - primeira}`);
+
+
+// // Questão 8
+// let cores = ["verde", "amarelo", "azul", "verde"];
+// let verde = cores.indexOf("verde");
+// let azul = cores.indexOf("azul");
+// if (verde < azul) {
+//     console.log("Verde aparece antes de azul");
+// }
+// else {
+//     console.log("Verde não aparece antes de azul");
+// }
+
+
+// // Questão 10
+// let letras = ["m", "n", "m", "p"];
+// let primeira = letras.indexOf("m");
+// let ultima = letras.lastIndexOf("m");
+// if (ultima - primeira >= 2) {
+//     console.log("m aparece duas vezes com pelo menos 2 posições de distância");
+// }
+// else {
+//     console.log("m não está a pelo menos 2 posições de distância");
+// }
+
+
+// // Questão 11
+// let nomes = ["Lucas", "Ana", "Lucas", "Pedro"];
+// let primeira = nomes.indexOf("Lucas");
+// let ultima = nomes.lastIndexOf("Lucas");
+// if (primeira !== ultima) {
+//     console.log("Lucas aparece em duas posições diferentes");
+// }
+// else {
+//     console.log("Lucas não aparece em duas posições diferentes");
+// }
+
+
+// // Questão 12
+// let nomes = ["Tiago", "Carlos", "Tiago", "Rafaela", "Tiago"];
+// let primeira = nomes.indexOf("Tiago");
+// let ultima = nomes.lastIndexOf("Tiago");
+// console.log(`Primeira posição: ${primeira}`);
+// console.log(`Última posição: ${ultima}`);
+
+
+// // Questão 13
+// let letras = ["a", "b", "a", "c", "a"];
+// let primeira = letras.indexOf("a");
+// let segunda = letras.indexOf("a", primeira + 1);
+// let terceira = letras.indexOf("a", segunda + 1);
+// if (terceira !== -1) {
+//     console.log("O elemento a aparece pelo menos 3 vezes");
+// }
+// else {
+//     console.log("O elemento a não aparece 3 vezes");
+// }
+
+
+// // Questão 14
+// let frutas = ["uva", "maçã", "pera", "uva", "maçã"];
+// let primeira = frutas.indexOf("uva");
+// let ultima = frutas.lastIndexOf("uva");
+// let primeiraMaca = frutas.indexOf("maçã");
+// let ultimaMaca = frutas.lastIndexOf("maçã");
+// if (primeira !== ultima && primeiraMaca !== ultimaMaca) {
+//     console.log("Uva e maçã aparecem pelo menos duas vezes");
+// }
+// else {
+//     console.log("Uva ou maçã não aparecem duas vezes");
+// }
+
+
+// // Questão 15
+// let letras = ["a", "b", "a", "c", "a"];
+// let primeira = letras.indexOf("a");
+// let segunda = letras.indexOf("a", primeira + 1);
+// let terceira = letras.indexOf("a", segunda + 1);
+// let quarta = letras.indexOf("a", terceira + 1);
+// if (terceira !== -1 && quarta === -1) {
+//     console.log("O elemento a aparece exatamente 3 vezes");
+// }
+// else {
+//     console.log("O elemento a não aparece exatamente 3 vezes");
+// }
